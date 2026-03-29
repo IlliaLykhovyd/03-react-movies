@@ -8,6 +8,7 @@ import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import { fetchMovies } from "../../services/movieService";
 import type { Movie } from "../../types/movie";
+import "modern-normalize/modern-normalize.css";
 
 export default function App() {
   const [movies, setMovies] = useState<Movie[]>([]);
